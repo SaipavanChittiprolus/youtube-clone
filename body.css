@@ -1,0 +1,248 @@
+p{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    padding-top: 75px;
+    padding-left: 130px;
+    height: 1500px;
+}
+.image{
+    width: 50px;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom:1px solid gray;
+    border-bottom-color: gray;
+    z-index: 100;
+}
+.left{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 130px;
+    padding-left: 20px;
+}
+.hamburger-menu{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logo{
+    width: 90px;
+    margin-left: 15px;
+}
+.icon{
+    width: 50px;  
+}
+.center{
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{ 
+    display: flex;
+    flex-direction: row;
+    height:40px;
+    flex: 1;
+    max-width: 350px;
+    margin-right: 20px;
+    width: 0;
+    padding-left: 15px;
+    box-shadow: inset 0px 1px 2px #eeeeee; 
+    border-width: 1px;
+    border-color: gray;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-icon{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    border: 1px solid gray;
+    width: 45px;
+    height: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: -20px;
+    margin-right: 15px;
+    background-color:rgb(215, 210, 210);
+   
+}
+.voice-search-icon{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 218);
+    height: 30px;
+    padding: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 15px;
+    width: 40px;
+}
+.right{
+     width: 300px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     flex-shrink: 0;
+}
+.upload,.apps,.notifications,.face{
+    height: 30px;
+    width: 30px;
+}
+.face{
+    border-radius: 50% ;
+    margin-right: 10px;
+}
+.right-in{
+    position: relative;
+}
+.notinum{
+    position: absolute;
+    top: 0px; 
+    right: 0px; 
+    background-color: rgb(207, 1, 1); 
+    color: white;
+    padding-left: 5px; 
+    padding-right:5px;
+    border-radius: 50%;
+    right: -2px;
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 15px;
+    position: fixed; 
+    top: 60px; 
+    left: 0px; 
+    bottom: 0px; 
+    width: 80px; 
+    z-index: 101;  
+}
+.leftians{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.parians{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.link-wise{
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold; 
+    max-height: 60px;
+    padding-top: 15px;
+}
+.link-wise:hover{
+    background-color: rgb(208, 206, 206);
+    cursor: pointer;
+}
+.left-icons{
+    width: 20px;
+    align-items: center;
+}
+.face{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.title{
+    display: flex;
+}
+.chanel-name{
+    display: flex;
+}
+.views{
+    display: flex;
+}
+.chaneldata{
+    display: flex;
+    display: inline-block;
+    z-index: 99;
+    margin-bottom: 20px;
+}
+.thumbnails{
+    width: 300px;
+    object-fit: cover;
+    display: flex; 
+    margin-bottom: 15px;
+    position: relative;
+   
+}
+.chanel-para{
+    display: grid;
+    grid-template-columns: 50px 250px;
+    vertical-align: middle;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.chanel-image{
+    width: 40px; 
+    border-radius: 50%;
+    display: flex;
+    margin-right: 5px;
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    width: 250px;
+    font-size: 14px;
+    padding-right: 5px;
+}
+.title{
+    margin-bottom: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    display: flex;
+    margin-right: 4px;
+}
+.chanel-name,.views{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.time{
+    position: absolute; 
+    right: 0;
+    bottom: 5px ;
+    color:white;
+    right:15px;
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 5px;
+}
+.thumb-time{
+    position: relative;
+}
+.chaneldata:hover{
+    cursor: pointer;
+   
+}
+.chaneldata:active{
+    transform: scale(0.9);
+    transition: 0.1s transform;
+    
+}
